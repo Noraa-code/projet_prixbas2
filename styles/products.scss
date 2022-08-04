@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.container{
+    border: 2px solid grey;
+}
+
+.container__categories{
+    margin: 150px 100px; //margin sert à gérer l'espace de la partie blance de haut à gauche dans le sens des aiguilles d'une montre
+    border: 2px solid rgb(0, 238, 255);
+    display: flex;
+    
+}
+
+.container__categories--list{
+    width: 500 px;
+    border: 2px solid palevioletred;
+
+}
+
+.boxAffichage{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+
+}
+
+.container__categories--affichage{
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.container__categories--imagePrincipale{
+    height: 200px;
+    border: 2px solid black;
+}
+
+.container__categories--imagesSecondaires{
+    height: 200px;
+    border: 2px solid orange;
+    
+}

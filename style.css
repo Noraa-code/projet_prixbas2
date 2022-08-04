@@ -6,4 +6,46 @@ h1 {
   color: red;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 2px solid grey;
+}
+
+.container__categories {
+  margin: 150px 100px;
+  border: 2px solid rgb(0, 238, 255);
+  display: flex;
+}
+
+.container__categories--list {
+  width: 500 px;
+  border: 2px solid palevioletred;
+}
+
+.boxAffichage {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid greenyellow;
+}
+
+.container__categories--affichage {
+  height: 200px;
+  border: 2px solid blue;
+}
+
+.container__categories--imagePrincipale {
+  height: 200px;
+  border: 2px solid black;
+}
+
+.container__categories--imagesSecondaires {
+  height: 200px;
+  border: 2px solid orange;
+}
+
 /*# sourceMappingURL=style.css.map */
