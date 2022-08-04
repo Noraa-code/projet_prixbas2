@@ -5,40 +5,59 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  border: 2px solid red;
-}
-
 .cardContainer {
-  border: 2px solid brown;
-  margin: 50px 100px;
+  margin: 50px;
 }
 
 .cardBlock--title {
-  margin: 20px 0;
+  margin: 20px;
+  color: #EA5455;
+  display: flex;
 }
 
 .sales {
   max-width: 1300px;
-  border: 2px solid yellow;
+  margin: 51px 15px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 240px);
-  justify-content: center;
-  grid-gap: 10px;
-  margin: 50px 0;
+  grid-template-columns: repeat(auto-fill, 280px);
+  grid: gap 10px;
 }
 
 .salesBlock {
-  border: 2px solid blue;
+  border-radius: 5px;
+  height: 261px;
+  width: 263px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  box-shadow: 0 0 13px rgba(18, 18, 18, 0.1);
 }
 
 .salesBlock--img {
-  height: 167px;
-  width: 210px;
+  height: 186px;
+  width: 217px;
+  margin-top: 15px;
+}
+
+.salesBlock--titre {
+  align-self: flex-start;
+  margin: 15px 0 5px 21px;
+  color: #2D4059;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.salesBlock--price {
+  width: 217px;
+  display: flex;
+  justify-content: space-between;
+  color: #2D4059;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.salesBlock--span {
+  color: #42CC58;
 }
 
 /*# sourceMappingURL=style.css.map */
