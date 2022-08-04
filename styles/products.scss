@@ -1,4 +1,4 @@
-*{
+*{ // * pour sélectionner toute la page.
     margin: 0;
     padding: 0; 
     
@@ -9,21 +9,25 @@
 }
 
 .container__categories{
-    margin: 150px 100px; //margin sert à gérer l'espace de la partie blance de haut à gauche dans le sens des aiguilles d'une montre
+    margin: 150px 100px; //margin sert à gérer l'espace de la partie blancHe de haut à gauche dans le sens des aiguilles d'une montre.
     border: 2px solid rgb(0, 238, 255);
     display: flex;
     
 }
 
-.container__categories--list{
+.container__categories--list{  //Duplication de sélection : Shift + Alt + Up ou Shift + Alt + Down
     width: 500 px;
     border: 2px solid palevioletred;
 
 }
+ul li span:hover{ // :hover sert à mettre en surbrillance quand la souris passe dessus.
+    color:red;
+    text-decoration:none
+}
 
 .boxAffichage{
     width: 200px;
-    display: flex;
+    display: flex; // Le display et le flex-direction il vaut mieux les mettre sur le parent.
     flex-direction: column;
     border: 2px solid greenyellow;
 

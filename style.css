@@ -26,6 +26,11 @@ h1 {
   border: 2px solid palevioletred;
 }
 
+ul li span:hover {
+  color: red;
+  text-decoration: none;
+}
+
 .boxAffichage {
   width: 200px;
   display: flex;
