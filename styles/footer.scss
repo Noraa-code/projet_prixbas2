@@ -1,6 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
+//******************************** FOOTER
+
+// container du footer
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+}
+// achats
+.footerBlock--buy{
+    background-color: #2D4059;
+    display: flex;
+    flex-direction: row;  
+}
+
+.buyBlock{
+    margin: 30px 50px ;
+    display: flex;
+    width: 300px;
+
+}
+
+// icones
+.footer--icon__center{
+    padding: 10px;
+}
+
+.footer--icon{
+    font-size: 10px;
+    color: #EA5455;
+
+    margin: 20px 0;
+
+    background-color: #E5E5E5;
+
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.footer--icon__rotate{
+    padding: 8px;
+    transform: rotate(340deg);
+}
+
+.buyBlock--text{
+    color: #E5E5E5;
+    margin: 10px;
+}
+
+.buyBlock--titre{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.buyBlock--p{
+    font-size: 10px;
+}
+.footerBlock--links{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+}
+.footerBlock--notice{
+    background-color: #2D4059;
+    display: flex;
+    flex-direction: row;
+}
