@@ -27,7 +27,7 @@
 
 // Titre
 .cardBlock--title{
-    margin: 50px 20px 10px 30px;
+    margin: 50px 20px 10px 80px;
     color: #EA5455;
     display: flex;
     
@@ -49,24 +49,23 @@
 // Zones meilleures ventes
 .sales{
     max-width: 1300px;
-    // margin: 20px 15px;
+    margin: 20px 50px;
     padding: 10px 10px 10px 20px ;
     
-    // border: 2px solid yellow;
     margin-bottom: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 280px);    
-    grid: gap 10px;
-    
+    grid-template-columns: repeat(auto-fill, 230px);    
+    grid-gap: 20px;
+    border: 2px solid blue;
+
 }
 
 // cartes
 .salesBlock{
-    // border: 2px solid blue;
     border-radius: 5px;
 
-    height: 261px;
-    width: 263px;
+    height: 231px;
+    width: 223px;
 
     display: flex;
     flex-direction: column;
@@ -77,15 +76,15 @@
 
 .salesBlock--img{
 
-    height: 186px;
-    width: 217px;
+    height: 156px;
+    width: 187px;
     
     margin-top: 15px;
     
 }
 .salesBlock--titre{
     align-self: flex-start;
-    margin: 15px 0 5px 21px;
+    margin: 15px 0 5px 17px;
 
     
     color: #2D4059;
@@ -95,7 +94,9 @@
 
 .salesBlock--price{
 
-    width: 217px;
+    width: 187px;
+
+    margin: 0 21px;
     display: flex;
     justify-content: space-between;
     
@@ -170,5 +171,28 @@
     margin: 5px;
 }
 .iconCategorie p{
+    font-weight: bold;
+}
+// zones choix
+.choices{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    margin: 50px;
+}
+
+.choicesCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choicesCard--img{
+    width: 302px;
+    height: 192px;
+    
+}
+.choicesCard--text{
+    color: #EA5455;
+    margin-top: 20px;
     font-weight: bold;
 }
