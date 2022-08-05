@@ -65,10 +65,29 @@
 .buyBlock--p{
     font-size: 10px;
 }
+
+// liens
 .footerBlock--links{
     background-color: #E5E5E5;
+    
+    border: 1px solid yellow;
+}
+.footerBlock--linksContainer{
+    margin: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content: space-around; 
+    
+}
+.listLiens{
+    border: 1px solid red;
+
+}
+.listLiens--ul{
+    list-style-type: none;
+}
+.listLiens--ul__right{
+    // text-align: right;
 }
 .footerBlock--notice{
     background-color: #2D4059;
