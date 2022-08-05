@@ -60,7 +60,11 @@
 
 .footerBlock--links {
   background-color: #E5E5E5;
-  border: 1px solid yellow;
+}
+
+.listLiens--ul {
+  flex-direction: column;
+  font-size: 14px;
 }
 
 .footerBlock--linksContainer {
@@ -68,20 +72,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.listLiens {
-  border: 1px solid red;
-}
-
-.listLiens--ul {
-  list-style-type: none;
+  font-size: 14px;
 }
 
 .footerBlock--notice {
   background-color: #2D4059;
+  color: #E5E5E5;
   display: flex;
   flex-direction: row;
+  padding: 10px 0;
+  justify-content: center;
+  font-size: 12px;
 }
 
 h1 {
