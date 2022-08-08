@@ -6,7 +6,11 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-
+h1{
+    display: flex;
+    text-align: center;
+    color: greenyellow;
+}
 .container{
     border: 3px solid mediumorchid;
 }
@@ -44,20 +48,14 @@ ul li:hover{ // :hover sert à mettre en surbrillance quand la souris passe dess
     border: 2px solid blue;
     
 }
-.fausseIcon1{
-    width: 33px;
-    height: 33px;
-}
-.fausseIcon2{
-    width: 33px;
-    height: 33px;
-}
+
 
 
 .container__categories--imagePrincipale{
     height: 200px;
     border: 2px solid black;
 }
+
 
 .container__categories--imagesSecondaires{
     height: 200px;
