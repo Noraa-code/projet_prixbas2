@@ -28,7 +28,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 230px);
   grid-gap: 20px;
-  border: 2px solid blue;
 }
 
 .salesBlock {
@@ -108,6 +107,7 @@
 
 .iconCategorie p {
   font-weight: bold;
+  font-size: 10px;
 }
 
 .choices {
