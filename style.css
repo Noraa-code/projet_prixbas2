@@ -14,7 +14,7 @@ h1 {
 }
 
 .container {
-  border: 3px solid grey;
+  border: 3px solid mediumorchid;
 }
 
 .container__categories {
@@ -49,9 +49,24 @@ ul li:hover {
   border: 2px solid blue;
 }
 
+.fausseIcon1 {
+  width: 33px;
+  height: 33px;
+}
+
+.fausseIcon2 {
+  width: 33px;
+  height: 33px;
+}
+
 .container__categories--imagePrincipale {
   height: 200px;
   border: 2px solid black;
+}
+
+img {
+  width: 100%;
+  height: 0;
 }
 
 .container__categories--imagesSecondaires {

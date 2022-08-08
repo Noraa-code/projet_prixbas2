@@ -8,7 +8,7 @@
 }
 
 .container{
-    border: 3px solid grey;
+    border: 3px solid mediumorchid;
 }
 
 .container__categories{
@@ -44,6 +44,15 @@ ul li:hover{ // :hover sert à mettre en surbrillance quand la souris passe dess
     border: 2px solid blue;
     
 }
+.fausseIcon1{
+    width: 33px;
+    height: 33px;
+}
+.fausseIcon2{
+    width: 33px;
+    height: 33px;
+}
+
 
 .container__categories--imagePrincipale{
     height: 200px;
