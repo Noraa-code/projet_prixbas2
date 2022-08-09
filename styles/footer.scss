@@ -5,21 +5,32 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 //******************************** FOOTER
-
+body{
+    display: flex;
+}
 // container du footer
+footer{
+    
+    flex-shrink: 0;
+
+}
 
 .footerContainer{
     display: flex;
     flex-direction: column;
+    width: 1300px;
+    margin: 0 auto;
+    
 }
 // achats
 .footerBlock--buy{
     background-color: #2D4059;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
 }
 
 .buyBlock{
@@ -92,3 +103,4 @@
     justify-content: center;
     font-size:12px;
 }
+
