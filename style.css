@@ -1,4 +1,121 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.footerBlock--buy {
+  background-color: #2D4059;
+  display: flex;
+  flex-direction: row;
+}
+
+.buyBlock {
+  margin: 30px 50px;
+  display: flex;
+  width: 300px;
+}
+
+.footer--icon__center {
+  padding: 10px;
+}
+
+.footer--icon {
+  font-size: 10px;
+  color: #EA5455;
+  margin: 20px 0;
+  background-color: #E5E5E5;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.footer--icon__rotate {
+  padding: 8px;
+  transform: rotate(340deg);
+}
+
+.buyBlock--text {
+  color: #E5E5E5;
+  margin: 10px;
+}
+
+.buyBlock--titre {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.buyBlock--p {
+  font-size: 10px;
+}
+
+.footerBlock--links {
+  background-color: #E5E5E5;
+}
+
+.listLiens--ul {
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.footerBlock--linksContainer {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.footerBlock--notice {
+  background-color: #2D4059;
+  color: #E5E5E5;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  justify-content: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .footerBlock {
+    width: 700px;
+    flex-wrap: wrap;
+  }
+
+  .footerBlock--linksContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .listLiens--ul__right {
+    text-align: end;
+  }
+
+  .footerBlock--notice p {
+    font-size: 10px;
+    width: 700px;
+    flex-wrap: wrap;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -132,6 +249,154 @@
   color: #EA5455;
   margin-top: 20px;
   font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.row-product {
+  display: flex;
+  margin-inline: 5px;
+}
+
+.col-2-product {
+  padding: 110px;
+  width: 30%;
+  height: 30%;
+}
+
+.image-du-produit {
+  justify-content: center;
+  width: 60vh;
+  margin-left: 100px;
+  border-color: rgb(244, 242, 242);
+}
+
+.augmente-quantite {
+  background-color: rgb(236, 233, 233);
+  width: 70px;
+  height: 30px;
+}
+
+.ajouter-partie {
+  display: flex;
+}
+
+.ajout-bouton {
+  background-color: #EA5455;
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+  color: white;
+  margin-left: 20px;
+  border: none;
+}
+
+.galerie-photo {
+  display: flex;
+  margin-left: 180px;
+  padding-top: 0px;
+}
+
+.img-marteau {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.icon-favoris {
+  margin-left: 20px;
+  size: large;
+  margin-top: 8px;
+}
+
+/* navbar */
+.navbar {
+  background-color: #2D4059;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.scroll-categorie {
+  width: 10%;
+  height: 20%;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+
+.input-text {
+  margin-left: 4px;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+
+.btn-recherche {
+  margin-left: 4px;
+  width: 10%;
+  height: 10%;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.panier {
+  color: #fff;
+  margin-left: 40px;
+  size: large;
+  margin-top: 22px;
+}
+
+/* header*/
+.logo-site {
+  display: flex;
+  color: #2D4059;
+}
+
+.main-top-header {
+  background-color: rgb(200, 199, 199);
+  height: 100px;
+}
+
+.top-header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 15px;
+}
+
+.info-product {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
