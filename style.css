@@ -7,9 +7,19 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  display: flex;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
 .footerContainer {
   display: flex;
   flex-direction: column;
+  width: 1300px;
+  margin: 0 auto;
 }
 
 .footerBlock--buy {
@@ -85,6 +95,27 @@
   font-size: 12px;
 }
 
+@media screen and (max-width: 700px) {
+  .footerBlock {
+    width: 700px;
+    flex-wrap: wrap;
+  }
+
+  .footerBlock--linksContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .listLiens--ul__right {
+    text-align: end;
+  }
+
+  .footerBlock--notice p {
+    font-size: 10px;
+    width: 700px;
+    flex-wrap: wrap;
+  }
+}
 h1 {
   color: red;
 }
