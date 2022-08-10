@@ -8,9 +8,7 @@
 }
 
 //******************************** FOOTER
-body{
-    display: flex;
-}
+
 // container du footer
 footer{
     
@@ -21,7 +19,7 @@ footer{
 .footerContainer{
     display: flex;
     flex-direction: column;
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     
 }
