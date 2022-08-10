@@ -52,10 +52,14 @@ ul li:hover{ // :hover sert à mettre en surbrillance quand la souris passe dess
 
 
 .container__categories--imagePrincipale{
-    height: 200px;
+    display: flex;
+    flex-direction: row;
     border: 2px solid black;
 }
 
+img{
+    width: 50px;
+}
 
 .container__categories--imagesSecondaires{
     height: 200px;

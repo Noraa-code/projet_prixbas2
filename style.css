@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+h2 {
+  color: blue;
+}
 
-
+h1 {
+  color: red;
+}
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  color: greenyellow;
 }
 
 .container {
@@ -44,22 +55,15 @@ ul li:hover {
   border: 2px solid blue;
 }
 
-.fausseIcon1 {
-  width: 33px;
-  height: 33px;
-}
-
-.fausseIcon2 {
-  width: 33px;
-  height: 33px;
-}
-
 .container__categories--imagePrincipale {
-  height: 200px;
+  display: flex;
+  flex-direction: row;
   border: 2px solid black;
 }
 
-
+img {
+  width: 50px;
+}
 
 .container__categories--imagesSecondaires {
   height: 200px;
