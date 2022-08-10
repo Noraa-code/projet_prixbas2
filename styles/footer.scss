@@ -1,3 +1,122 @@
-h2{
-    color:blue;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+//******************************** FOOTER
+
+// container du footer
+footer{
+    
+    flex-shrink: 0;
+
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+// achats
+.footerBlock--buy{
+    background-color: #2D4059;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buyBlock{
+    margin: 30px 50px ;
+    display: flex;
+    width: 300px;
+
+}
+
+// icones
+.footer--icon__center{
+    padding: 10px;
+}
+
+.footer--icon{
+    font-size: 10px;
+    color: #EA5455;
+
+    margin: 20px 0;
+
+    background-color: #E5E5E5;
+
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.footer--icon__rotate{
+    padding: 8px;
+    transform: rotate(340deg);
+}
+
+.buyBlock--text{
+    color: #E5E5E5;
+    margin: 10px;
+}
+
+.buyBlock--titre{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.buyBlock--p{
+    font-size: 10px;
+}
+
+// liens
+.footerBlock--links{
+    background-color: #E5E5E5;
+    
+}
+.listLiens--ul{
+    flex-direction: column;
+    font-size: 14px;
+}
+.footerBlock--linksContainer{
+    margin: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around; 
+    font-size: 14px;
+}
+
+.footerBlock--notice{
+    background-color: #2D4059;
+    color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: center;
+    font-size:12px;
+}
+
+@media screen and (max-width: 700px) {
+    .footerBlock{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .footerBlock--linksContainer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .listLiens--ul__right{
+        text-align: end;
+    }
+    .footerBlock--notice p{
+        font-size: 10px;
+        width: 700px;
+        flex-wrap: wrap;
+    }
 }
