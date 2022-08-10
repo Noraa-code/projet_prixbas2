@@ -19,15 +19,13 @@
 </head>
 <body>
 
-    <h1>Wouaw</h1>
-    
     <main class="container">
 
         <div class="container__categories">
 
             <div class="container__categories--list">
-                <i class="fa-solid fa-border-all"></i>
-                <h3>Catégories</h3>
+                
+                <h3><i class="fa-solid fa-border-all icon"></i> Catégories</h3>
                     <ul>
                         <li>Tout</li>
                         <li>Bricolage</li>
@@ -46,30 +44,25 @@
 
             <div class="boxAffichage">
                 <div class="container__categories--affichage">
-                    <p>Affichage:</p>
+                    <div class="container__categories--affichageText">
+                        <p>Affichage: <i class="fa-solid fa-border-all icon"></i> <i class="fa-solid fa-grip icon"></i></p>
                     
-                        <div class="icon1">
-                            <i class="fa-solid fa-border-all"></i>
-                        </div>
-                        <div class="icon2">
-                            <i class="fa-solid fa-grip"></i>
-                        </div>
-                    
-                        <select style="background-color: #EA5455;"name="articles" id="selection-articles">
-                            <option value="trier">Trier les résultats</option>
-                            <option value="Bricolage">Bricolage</option>
-                            <option value="Outillage">Outillage</option>
-                            <option value="Multimédia">Multimédia</option>
-                            <option value="Cuisine">Cuisine</option>
-                            <option value="Entretien">Entretien</option>
-                        </select>
+                    </div>
+                    <select name="articles" id="selection-articles">
+                        <option value="selected">Trier les résultats</option>
+                        <option value="Bricolage">Bricolage</option>
+                        <option value="Outillage">Outillage</option>
+                        <option value="Multimédia">Multimédia</option>
+                        <option value="Cuisine">Cuisine</option>
+                        <option value="Entretien">Entretien</option>
+                    </select>
 
                 </div>
     
                 <div class="container__categories--imagePrincipale">
                     
                     <div class="imgPrinc">
-                        <img src="./images/bricolage_jardinage_secateur.png" alt="">
+                        <img class="imgPrinc--img" src="./images/bricolage_jardinage_secateur.png" alt="">
                     </div>
                     <div class="imgPrinc--text">
                         <p class="imgPrinc--titre">Marteau</p>
@@ -80,11 +73,34 @@
                 </div>
     
                 <div class="container__categories--imagesSecondaires">
+                    <div class="imagesSecondaires__block">
+                        <img class="imagesSecondaires__img" src="images/bricolage_jardinage_gant_de_protection.png" alt="gants"> 
+                        <p class="imagesSecondaires__titre">Gants</p>
+                        <div class="imagesSecondaires__price">
+                            <p>1€</p>
+                            <span class="imageSecondaire--span">En stock</span>
+                        </div>
+                    </div>
+                    <div class="imagesSecondaires__block imagesSecondaires__block--center">
+                        <img class="imagesSecondaires__img" src="images/bricolage_marteau.png" alt="bricolage_marteau">
+                        <p class="imagesSecondaires__titre">Marteau</p>
+                        <div class="imagesSecondaires__price">
+                            <p>1€</p>
+                            <span class="imageSecondaire--span">En stock</span>
+                        </div>
+                    </div>
+                    <div class="imagesSecondaires__block">
+                        <img class="imagesSecondaires__img" src="images/jeux_tracteur_ferme.png" alt=" jeu_tracteur">
+                        <p class="imagesSecondaires__titre">Jeu tracteur</p>
+                        <div class="imagesSecondaires__price">
+                            <p>1€</p>
+                            <span class="imageSecondaire--span">En stock</span>
+                        </div>
+                    </div>
+                    
+                    <img 
+                    <img 
 
-                    <img src="images/bricolage_jardinage_gant_de_protection.png" alt="gants"> 
-                    <img src="images/bricolage_marteau.png" alt="bricolage_marteau">
-                    <img src="images/jeux_tracteur_ferme.png" alt=" jeu_tracteur">
-    
                 </div>
             </div>
 

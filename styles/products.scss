@@ -6,63 +6,159 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-h1{
-    display: flex;
-    text-align: center;
-    color: greenyellow;
-}
-.container{
-    border: 3px solid mediumorchid;
-}
+// PAGE PRODUCTS
+// .container{
+//     border: 3px solid mediumorchid;
+// }
 
 .container__categories{
     margin: 150px 100px; //margin sert à gérer l'espace de la partie blancHe de haut à gauche dans le sens des aiguilles d'une montre.
-    border: 2px solid rgb(0, 238, 255);
+    // border: 2px solid rgb(0, 238, 255);
     display: flex;
     
 }
+// ZONE CATEGORIES
 
 .container__categories--list{  //Duplication de sélection : Shift + Alt + Up ou Shift + Alt + Down
     width: 500 px;
-    border: 2px solid palevioletred;
+    // border: 2px solid palevioletred;
 
 }
+ul{
+    width: 250px;
+    left: 20px;
+    position: relative;
+    
+}
 li{
+    margin:9px;
     list-style-type: circle;
+    color: rgb(139 132 132);
 }
 ul li:hover{ // :hover sert à mettre en surbrillance quand la souris passe dessus.
     color:red;
     text-decoration:none
 }
-
+// ZONE AFFICHAGE
 .boxAffichage{
-    width: 200px;
+    width: 900px;
     display: flex; // Le display et le flex-direction il vaut mieux les mettre sur le parent.
     flex-direction: column;
-    border: 2px solid greenyellow;
+    // border: 2px solid greenyellow;
 
 }
-
+// selecteur
 .container__categories--affichage{
-    height: 200px;
-    border: 2px solid blue;
-    
-}
-
-
-
-.container__categories--imagePrincipale{
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    justify-content: space-between;
 }
 
-img{
-    width: 50px;
+.icon{
+    font-size: 24px;
+    margin-left: 8px;
 }
-
-.container__categories--imagesSecondaires{
-    height: 200px;
-    border: 2px solid orange;
+select{
+    width:200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EA5455;
+    color: white;
+    // border: 1px solid #EA5455 ;
     
+    
+}
+// AFFICHAGE PRODUIT
+.container__categories--imagePrincipale{
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 0 0 13px rgba(18, 18, 18, 0.1);
+    margin-bottom: 100px;
+}
+
+.imgPrinc--img{
+    width: 170px;
+    margin: 30px 50px 23px 30px;
+    
+}
+.imgPrinc--text{
+margin-top: 30px;
+
+}
+.imgPrinc--titre , .imgPrinc--price{
+    margin-bottom: 20px;
+    color: #2D4059;
+}
+.imgPrinc--titre{
+    font-size: 12px;
+    font-weight: bold;
+}
+.imgPrinc--price{
+    font-size: 11px;
+}
+.imgPrinc--stock{
+    font-size: 11px;
+    font-weight: bold;
+    color: #42CC38;
+}
+.container__categories--imagesSecondaires{
+
+    // border: 2px solid orange;
+    display: flex;
+    
+    
+}
+.imagesSecondaires__block{
+    border-radius: 5px;
+    height: 231px;
+    width: 223px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    box-shadow: 0 0 13px rgba(18, 18, 18, 0.1);
+}
+.imagesSecondaires__block--center{
+    margin: 0 75px;
+}
+.imagesSecondaires__img{
+
+    height: 156px;
+    width: 187px;
+    
+    margin-top: 15px;
+    
+}
+.imagesSecondaires__titre{
+    align-self: flex-start;
+    margin: 15px 0 5px 17px;
+
+    
+    color: #2D4059;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.imagesSecondaires__price{
+
+    width: 187px;
+
+    margin: 0 21px;
+    display: flex;
+    justify-content: space-between;
+    
+    color: #2D4059;
+    font-size: 11px;
+    font-weight: bold;
+    // border: 1px solid #EA5455;
+
+}
+
+.imageSecondaire--span{
+    color: #42CC58;
 }
